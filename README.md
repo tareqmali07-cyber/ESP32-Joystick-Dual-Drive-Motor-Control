@@ -108,7 +108,8 @@ Select your ESP32 board (Tools > Board > ESP32 Dev Module) and target COM Port.
 Upload the sketch.
 ---
 
-💻 Source Code (src/main.ino)
+## 💻 Source Code (`src/main.ino`)
+
 C++
 ```
 #include <Stepper.h>
