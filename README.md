@@ -86,10 +86,11 @@ ESP32 Joystick Dual Drive Motor Control/
     ├── circuit_real.jpeg
     ├── components.csv
     └── demo.gif
-
+```
 ---
  
-🚀 How to Run & Setup
+## 🚀 How to Run & Setup
+
 Hardware Assembly: Connect all components following the pinout instructions listed in the Circuit Pinout Connections section. Ensure a Common Ground (GND) is shared across the ESP32 and external power supply.
 
 Setup Arduino IDE:
@@ -192,3 +193,4 @@ void stopAllMotors() {
   digitalWrite(19, LOW);
   digitalWrite(12, LOW);
 }
+```
