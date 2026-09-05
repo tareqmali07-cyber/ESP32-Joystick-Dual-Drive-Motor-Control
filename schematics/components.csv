@@ -1,0 +1,10 @@
+Component,Quantity,Description/Notes
+ESP32 DevKit V1,1,32-bit Microcontroller Board with Wi-Fi & Bluetooth
+28BYJ-48 Stepper Motor,1,5V Unipolar Stepper Motor for Precision Steering
+ULN2003 Driver Board,1,Darlington Transistor Array Module for Stepper Drive
+DC Gear Motor (3-6V),1,Propulsion Actuator Motor
+L293D H-Bridge IC,1,Quadruple High-Current Half-H Motor Driver
+2-Axis Joystick Module,1,Dual Analog Potentiometers (VRx/VRy) with Tactile Switch
+Regulated Power Supply,1,External 5V / 2A Bench Power Supply
+Breadboard,1,Solderless Breadboard for Prototyping
+Jumper Wires,20+,Male-to-Male and Male-to-Female Connectors
