@@ -91,21 +91,18 @@ ESP32 Joystick Dual Drive Motor Control/
  
 ## 🚀 How to Run & Setup
 
-Hardware Assembly: Connect all components following the pinout instructions listed in the Circuit Pinout Connections section. Ensure a Common Ground (GND) is shared across the ESP32 and external power supply.
+1. **Hardware Assembly**: Connect all hardware components according to the Circuit Pinout Connections section above. Ensure a **Common Ground (GND)** is shared across the ESP32 and external 5V power supply.
+2. **Install Required Libraries**: Open Arduino IDE, navigate to `Tools > Manage Libraries`, search for and install:
+* **Stepper** (Built-in Arduino library for motor control)
+* **ESP32 Board Package** (via `Tools > Board > Boards Manager`)
 
-Setup Arduino IDE:
 
-Open Arduino IDE and install the ESP32 Board Package (Tools > Board > Boards Manager).
-
-Install the standard Stepper library.
-
-Upload Code:
-
-Open src/main.ino in Arduino IDE.
-
-Select your ESP32 board (Tools > Board > ESP32 Dev Module) and target COM Port.
-
-Upload the sketch.
+3. **Upload Code**:
+* Connect your ESP32 board to your computer via USB cable.
+* Open `src/main.ino` in Arduino IDE.
+* Select **ESP32 Dev Module** under `Tools > Board > ESP32 Arduino`.
+* Select your corresponding COM Port under `Tools > Port`.
+* Click the **Upload** button (or press `Ctrl + U`).
 ---
 
 ## 💻 Source Code (`src/main.ino`)
