@@ -108,7 +108,7 @@ ESP32 Joystick Dual Drive Motor Control/
 ## 💻 Source Code (`src/main.ino`)
 
 C++
-```
+```cpp 
 #include <Stepper.h>
 
 // Joystick pin mappings
